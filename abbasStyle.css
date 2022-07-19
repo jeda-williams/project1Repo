@@ -1,0 +1,90 @@
+/* #card1 {
+    position: absolute;
+    left: 20px;
+    bottom: 650px;
+}
+#card2 {
+    position: absolute;
+    left: 610px;
+    bottom: 650px;
+}
+#card3 {
+    position: absolute;
+    left: 1200px;
+    bottom: 650px;
+    right: 15px;
+} */
+/* #card4 {
+    position: absolute;
+    left: 315px;
+    bottom: 415px;
+}
+#card5 {
+    position: absolute;
+    left: 905px;
+    bottom: 415px;
+} */
+h5 {
+    display: inline;
+}
+
+/* .card-text {
+    display: inline;
+} */
+* {
+    font-family: 'Proxima Nova', 'Gotham', serif;
+}
+.card-text {
+    font-size: 14px;
+    text-align: justify;
+}
+.card-title {
+    font-size: 15px;
+}
+/* #kendrickPlayer {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+    right: 25px;
+}
+#weekndPlayer {
+    position: absolute;
+    left: 600px;
+    bottom: 100px;
+    right: 25px;
+} */
+.formClear {
+    clear:top;
+    height:125px;
+}
+.space {
+    clear:top;
+    height:30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  li {
+    float: left;
+    margin-right: 100px;
+  }
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:xx-large;
+  }
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  #tabs {
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+  }
