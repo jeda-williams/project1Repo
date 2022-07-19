@@ -1,0 +1,159 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    overflow-x: hidden;
+    
+}
+#intromsg {
+   font-size: 70px;
+   position: relative;
+   bottom: 60px;
+}
+#jedatabs {
+   list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      left: 300px;
+      bottom: 100px;
+ }
+
+ .idkidk {
+   float: left;
+   margin-right: 100px;
+ }
+
+ .navbarlinks {
+   display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size:xx-large;
+ }
+ li a:hover {
+   background-color: rgb(255, 255, 255);
+ }
+#bio {
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+  }
+  #maindiv {
+    justify-content: center;
+  }
+
+  #secondarydiv {
+    justify-content: center;
+  }
+  #card1 {
+        margin-right: 120px;
+    }
+  #card3 {
+    margin-left: 120px;
+ }
+ #card4 {
+    margin-right: 120px; 
+ }
+ #dami {
+    position: relative; 
+    height: 185px;
+    right: 12px;
+ }
+ #carti {
+    position: relative; 
+    height: 185px;
+    right: 12px;
+ }
+ #joy {
+    position: relative; 
+    height: 185px;
+    right: 12px;
+ }
+ #yt {
+    position: relative; 
+    height: 185px;
+    right: 12px;
+ }
+ #tim{
+    position: relative; 
+    height: 185px;
+    right: 12px;
+ } 
+ .WLR {
+    color: #e90b0e;
+ }
+ .EPI {
+    color: #bf6eb1;
+    
+ }
+ .QD {
+    color: #74a1b8;
+ }
+ .SMF {
+    color: #9db728;
+ }
+ .TL {
+    color: #f89532;
+ }
+ #single1 {
+   position: relative;
+   left: 600px;
+ }
+ #single2 {
+   position: relative;
+   bottom: 80px;
+ }
+ #single3 {
+   position: relative; 
+   bottom: 250px;
+ }
+ #vinyl1 {
+   width: 195px;
+   height: 195px;
+   position: relative;
+   right: 730px;
+ }
+ #vinyl2 {
+   width: 195px;
+   height: 195px;
+   position: relative;
+   bottom: 50px;
+   left: 900px;
+ }
+ #vinyl3 {
+   width: 195px;
+   height: 195px;
+   position: relative;
+   right: 130px;
+ }
+ #showmethatucare {
+   position: relative;
+   bottom: 140px; 
+   right: 520px;
+ }
+ #kazino {
+   position: relative;
+   right: 123px;
+   bottom: 180px;
+ }
+ #thestreetescape {
+   position: relative;
+   left: 80px;
+   bottom: 130px;
+ }
+ .wrapper {
+   margin-left:auto;
+   margin-right:auto;
+   width:960px;
+ }
+ #classics {
+   position: relative; 
+   bottom: 230px;
+ }
+ 
+
+ 
+
+ 
