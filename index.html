@@ -1,99 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminus</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: "Oxygen", sans-serif;
+        overflow-x: hidden;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terminus</title>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <style>
-    body {
-      font-family: 'Oxygen', sans-serif;
-      overflow-x: hidden;
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgb(249, 247, 247);
-    }
+      li {
+        float: left;
+        margin-right: 100px;
+      }
 
-    li {
-      float: left;
-      margin-right: 100px;
-    }
+      li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: xx-large;
+      }
+      li a:hover {
+        background-color: rgb(255, 255, 255);
+      }
+      #tabs {
+        position: relative;
+        left: 300px;
+        bottom: 100px;
+      }
+      #openhead {
+        position: relative;
+        bottom: 70px;
+        font-size: 70px;
+      }
+      #infovid {
+        margin-left: 30px;
+      }
+      #msg {
+        position: relative;
+        left: 1400px;
+        bottom: 625px;
+        font-size: 29px;
+      }
+      #hm {
+        position: relative;
+        bottom: 500px;
+        font-size: 70px;
+      }
+      #gallery {
+        width: 1500px;
+        height: 870px;
+        position: relative;
+        left: 550px;
+        bottom: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="logo" src="./logo.png" />
+    <ul id="tabs">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="./jeda's files/jeda.html">Jeda</a></li>
+      <li><a href="abbas.html">Abbas</a></li>
+      <li><a href="./Jeremy.html">Jeremy</a></li>
+      <li><a href="./mayer.html">Mayer</a></li>
+      <li><a href="zara.html">Zara</a></li>
+    </ul>
 
-    li a {
-      display: block;
-      color: rgb(0, 0, 0);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size:xx-large;
-    }
-    li a:hover {
-      background-color: rgb(255, 255, 255);
-    }
-    #tabs {
-      position: relative; 
-      left: 300px;
-      bottom: 100px;
-    }
-    #openhead {
-      position: relative;
-      bottom: 70px;
-      font-size:70px;
-    }
-    #infovid {
-      margin-left: 30px;
-    }
-    #msg {
-      position: relative;
-      left: 1400px;
-      bottom: 625px;
-      font-size: 30.42px;
-    }
-    #hm {
-      position: relative; 
-      bottom: 500px;
-      font-size:70px;
-    }
-    #gallery {
-      width: 1500px;
-      height: 870px;
-      position: relative;
-      left: 500px;
-      bottom: 500px;
-    }
-  </style>
-</head>
-<body>
-  <img id="logo" src="./logo.png">
-  <ul id="tabs">
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="./jeda's files/jeda.html">Jeda</a></li>
-    <li><a href="#contact">Abbas</a></li>
-    <li><a href="#about">Hanwen</a></li>
-    <li><a href="#about">Mayer</a></li>
-    <li><a href="#about">Zara</a></li>
-  </ul>
-  <h1 id="openhead" style="text-align: center">A collaboration of words and sounds; Music</h1>
-  <iframe id="infovid" class="col-6" width="560" height="615" src="https://www.youtube.com/embed/kZJ8BfEu-P8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <div id="msg">
-  <p class="col-5">Music is ubiquitous across human cultures — as a source of affective and pleasurable experience, moving us both physically and emotionally — and learning to play music shapes both brain structure and brain function. Music processing in the brain — namely, the perception of melody, harmony and rhythm — has traditionally been studied as an auditory phenomenon using passive listening paradigms. However, when listening to music, we actively generate predictions about what is likely to happen next. This enactive aspect has led to a more comprehensive understanding of music processing involving brain structures implicated in action, emotion and learning. Here we review the cognitive neuroscience literature of music perception.  We show that music perception, action, emotion and learning all rest on the human brain’s fundamental capacity for prediction — as formulated by the predictive coding of music model. </p>
-  </div>
-  <h1 id="hm" style="text-align: center">The Honorable Mentions of Group 5</h1>
-  <img id="gallery" src="./makephotogallery.net_1658159399709.png">
+    <h1 id="openhead" style="text-align: center">
+      A collaboration of words and sounds; Music
+    </h1>
+    <iframe
+      id="infovid"
+      class="col-6"
+      width="560"
+      height="615"
+      src="https://www.youtube.com/embed/kZJ8BfEu-P8"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <div id="msg">
+      <p class="col-5">
+        Music is ubiquitous across human cultures — as a source of affective and
+        pleasurable experience, moving us both physically and emotionally — and
+        learning to play music shapes both brain structure and brain function.
+        Music processing in the brain — namely, the perception of melody,
+        harmony and rhythm — has traditionally been studied as an auditory
+        phenomenon using passive listening paradigms. However, when listening to
+        music, we actively generate predictions about what is likely to happen
+        next. This enactive aspect has led to a more comprehensive understanding
+        of music processing involving brain structures implicated in action,
+        emotion and learning. Here we review the cognitive neuroscience
+        literature of music perception. We show that music perception, action,
+        emotion and learning all rest on the human brain’s fundamental capacity
+        for prediction — as formulated by the predictive coding of music model.
+      </p>
+    </div>
+    <h1 id="hm" style="text-align: center">
+      The Honorable Mentions of Group 5
+    </h1>
+    <img id="gallery" src="./makephotogallery.net_1658159399709.png" />
 
-
-
-
-
-
-
-<script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
